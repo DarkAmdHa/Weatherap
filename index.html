@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WeatherAPI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class='card'>
+
+    </div>
+    <div class='changeLocationCard innactive'>
+      <div class="content innactive">
+          <p>Enter the name of the City</p>
+          <input type="text" class='cityInput' placeholder="e.g Miami" value=''>
+          <div>
+            <button id='searchLocation' class='button'>Search</button>
+            <button id='cancel' class='button'>Cancel</button>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src='ui.js'></script>
+  <script src='weatherapi.js'></script>
+  <script src='app.js'></script>
+</body>
+</html>
